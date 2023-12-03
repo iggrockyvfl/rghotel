@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rghotel/static/css/main.e62419f0.css",
+    "main.js": "/rghotel/static/js/main.471da07f.js",
+    "static/js/787.38f16daf.chunk.js": "/rghotel/static/js/787.38f16daf.chunk.js",
+    "static/media/2.jpg": "/rghotel/static/media/2.6d6a7cf49117a0dd50e4.jpg",
+    "static/media/1.jpg": "/rghotel/static/media/1.1073f277e4ff9c09b252.jpg",
+    "static/media/3.jpg": "/rghotel/static/media/3.9c47facbc895b9b8c098.jpg",
+    "static/media/visa.png": "/rghotel/static/media/visa.88d128a80bd0f7fc65ca.png",
+    "static/media/room1.jpg": "/rghotel/static/media/room1.dbf7c2457c45d17f3f35.jpg",
+    "static/media/Governor.jpg": "/rghotel/static/media/Governor.fe6b3225e8123693a9cb.jpg",
+    "static/media/Captain.jpg": "/rghotel/static/media/Captain.a5087094a43eca7fa520.jpg",
+    "static/media/Executive.jpg": "/rghotel/static/media/Executive.4168adb3ae5f4be767e1.jpg",
+    "static/media/mastercard.png": "/rghotel/static/media/mastercard.692c3a9dcc7454fdefee.png",
+    "static/media/Deluxe.jpg": "/rghotel/static/media/Deluxe.6f999b82454ac3f0fb2f.jpg",
+    "static/media/Admiral.jpg": "/rghotel/static/media/Admiral.1355a8ccb4b6bf33afdf.jpg",
+    "static/media/logo1.png": "/rghotel/static/media/logo1.a48bc88627dcea882af4.png",
+    "index.html": "/rghotel/index.html",
+    "main.e62419f0.css.map": "/rghotel/static/css/main.e62419f0.css.map",
+    "main.471da07f.js.map": "/rghotel/static/js/main.471da07f.js.map",
+    "787.38f16daf.chunk.js.map": "/rghotel/static/js/787.38f16daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62419f0.css",
+    "static/js/main.471da07f.js"
+  ]
+}

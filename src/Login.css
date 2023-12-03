@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginPage {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+}
+.loginImg{
+    background-image: url(./components/LoginImage.webp);
+    width: 50%;
+    height: 92vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+Form{
+    display: block;
+    margin: auto;
+}

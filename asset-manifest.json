@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rghotel/static/css/main.e62419f0.css",
-    "main.js": "/rghotel/static/js/main.471da07f.js",
+    "main.css": "/rghotel/static/css/main.830e9ef3.css",
+    "main.js": "/rghotel/static/js/main.4a88e20a.js",
     "static/js/787.38f16daf.chunk.js": "/rghotel/static/js/787.38f16daf.chunk.js",
     "static/media/2.jpg": "/rghotel/static/media/2.6d6a7cf49117a0dd50e4.jpg",
     "static/media/1.jpg": "/rghotel/static/media/1.1073f277e4ff9c09b252.jpg",
@@ -16,12 +16,12 @@
     "static/media/Admiral.jpg": "/rghotel/static/media/Admiral.1355a8ccb4b6bf33afdf.jpg",
     "static/media/logo1.png": "/rghotel/static/media/logo1.a48bc88627dcea882af4.png",
     "index.html": "/rghotel/index.html",
-    "main.e62419f0.css.map": "/rghotel/static/css/main.e62419f0.css.map",
-    "main.471da07f.js.map": "/rghotel/static/js/main.471da07f.js.map",
+    "main.830e9ef3.css.map": "/rghotel/static/css/main.830e9ef3.css.map",
+    "main.4a88e20a.js.map": "/rghotel/static/js/main.4a88e20a.js.map",
     "787.38f16daf.chunk.js.map": "/rghotel/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e62419f0.css",
-    "static/js/main.471da07f.js"
+    "static/css/main.830e9ef3.css",
+    "static/js/main.4a88e20a.js"
   ]
 }

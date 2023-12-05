@@ -158,7 +158,7 @@ function Home(){
           <div className="row">
           <h1 className="facilities">How to Get Here</h1><hr></hr>
             <div className="col-md-6">
-            <p>Dusit Thani Mactan Cebu Resort</p>
+            <p>RG HOTEL</p>
             <p>Punta Engaño Road, Mactan Island, Lapu-Lapu City 6015, Cebu, Philippines</p>
             <p>dtmc@dusit.com</p>
             <p>+63 32 888 1388</p>

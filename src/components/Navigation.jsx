@@ -6,7 +6,7 @@ function Navigation() {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
+                <NavLink className="navbar-brand" to="/rghotel">
                     <img id="testlogo" src={testlogo} alt="Logo" />
                 </NavLink>
 

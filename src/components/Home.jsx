@@ -1,75 +1,68 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Segment } from "semantic-ui-react";
 import ChatBot from "react-simple-chatbot";
 
 
 function Home(){
-
-
-  const steps = [
-    {
-        id: 'Greet',
-        message: 'Hello, Welcome to RG Hotel',
-        trigger: 'Ask Name'
-    },
-    {
-        id:'Ask Name',
-        message: 'Please enter your full name',
-        trigger: 'waiting'
-    },
-    {
-        id: 'waiting',
-        user: true,
-        trigger: 'Name'
-    },
-    {
-        id: 'Name',
-        message: 'Hi {previousValue}, please select your problem. ',
-        trigger: 'issues'
-    },
-    {
-        id: 'issues',
-        options: [
-           {
-            value: "Cancel Booking",
-            label: "Cancel Booking",
-            trigger: "Cancel Booking"
-           },
-           {
-            value: "Nothing",
-            label: "Nothing",
-            trigger: "Nothing"
-           } 
-        ]
-    },
-    {
-        id: 'Cancel Booking',
-        message: 'Im Cancelling your booking now',
-        trigger: 'cancel'
-    },
-    {
-        id: 'Nothing',
-        message: `Thank your then, Have a nice day! <3 `,
-        end:true
-    },
-    {
-        id: 'cancel',
-        message: 'Your Booking Has been Canceled',
-        end:true
-    }
-];
-// document.querySelector("#chatbot-btn")
-// .addEventListener("click",function(){
-//   document.querySelector(".popup").classList.add("active");
-// });
     return(
       
-      <>
-      <div class="popup">
-      <Segment id="chatbot"><ChatBot steps={steps}/></Segment>
-      </div>
-      <button type="submit" value="Submit" id="chatbot-btn">RG Hotels</button>
+    <>
+    <ChatBot
+      steps={[
+      {
+          id: 'Greet',
+          message: 'Hello, Welcome to RG Hotel',
+          trigger: 'Ask Name'
+      },
+      {
+          id:'Ask Name',
+          message: 'Please enter your full name',
+          trigger: 'waiting'
+      },
+      {
+          id: 'waiting',
+          user: true,
+          trigger: 'Name'
+      },
+      {
+          id: 'Name',
+          message: 'Hi {previousValue}, please select your problem. ',
+          trigger: 'issues'
+      },
+      {
+          id: 'issues',
+          options: [
+        {
+          value: "Cancel Booking",
+          label: "Cancel Booking",
+          trigger: "Cancel Booking"
+        },
+        {
+          value: "Nothing",
+          label: "Nothing",
+          trigger: "Nothing"
+        } 
+      ]
+  },
+  {
+      id: 'Cancel Booking',
+      message: 'Im Cancelling your booking now',
+      trigger: 'cancel'
+  },
+  {
+      id: 'Nothing',
+      message: `Thank your then, Have a nice day! <3 `,
+      end:true
+  },
+  {
+      id: 'cancel',
+      message: 'Your Booking Has been Canceled',
+      end:true
+  }
+      ]}
+      floating={true}
+      />
+      
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">

@@ -43,7 +43,7 @@ function Accommodation() {
                         return; // Stop further decrease
                     }
                     setRoomQuantity(prev => Math.max(1, prev + value));
-        
+                    
                     // Adjust the price based on the button clicked
                     const roomBasePrice = selectedRoom ? parseFloat(selectedRoom.price.replace('$', '')) : 0;
                     const roomTotalPrice = roomBasePrice + (value === 1 ? 100 : -100);

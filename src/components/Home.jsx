@@ -104,7 +104,7 @@ function Home(){
               <h1>R.G. Hotel & Resort</h1><br></br>
               <p>A vibrant and inviting retreat blends Filipino warmth and Thai hospitality for a heavenly haven by the ocean at our hotel Mactan Cebu, Philippines resort.</p>
               <br></br>
-              <p>On northern tip of the Punta Engaño Peninsula, Dusit Thani Mactan Cebu is easily accessible from the Mactan-Cebu International Airport by land and sea transport. Surrounded by tropical islands, natural, cultural and historic treasures are all within reach.</p>
+              <p>On northern tip of the Punta Engaño Peninsula, Mactan Cebu is easily accessible from the Mactan-Cebu International Airport by land and sea transport. Surrounded by tropical islands, natural, cultural and historic treasures are all within reach.</p>
               <br></br>
               <p>Guests relax in stylish rooms and suites, with gracious service, innovative cuisine, luxurious amenities and stunning views all on hand.</p>
               <br></br>
